@@ -116,7 +116,9 @@ body {
     height: 22px;
     border: 1px solid #311C1C;
 }
-
+input:focus {
+    outline: none;
+}
 /* Header */
 
 .div-header {

@@ -40,6 +40,7 @@
     padding-top: 20px;
     width: 80%;
     margin: 0 auto;
+    gap: 24px;
 }
 
 .content-left {
@@ -364,7 +365,7 @@
 
 .inp-coupon-code {
     padding: 4px 8px;
-    width: 70%;
+    width: 65%;
     height: 20px;
 }
 
@@ -473,5 +474,10 @@
 }
 
 @media screen and (max-width: 750px) {
-
+    .inp-coupon-code {
+        width: 75%;
+    }
+    .div-main-content {
+        gap: 0;
+    }
 }
