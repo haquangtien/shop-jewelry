@@ -1,0 +1,477 @@
+
+/* Content */
+.div-content {
+    margin-top: 50px;
+}
+
+/* Content breadcrumd */
+.content-breadcrumd {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content-breadcrumd ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.content-breadcrumd ul li {
+    color: #B5ABAA;
+}
+
+.content-breadcrumd ul li a {
+    text-decoration: none;
+    color: #B5ABAA;
+}
+
+.content-breadcrumd ul li a:hover {
+    color: blue;
+}
+
+.content-breadcrumd ul li a::after {
+    content: "/";
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+/* content main */
+.div-main-content {
+    padding-top: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content-left {
+    width: 65.76%;
+}
+
+.div-main-contact {
+    padding: 40px;
+    border: 1px solid #B5ABAA;
+    position: relative;
+
+}
+
+.div-contact-infomation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-contact-infomation h2 {
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #311C1C;
+    margin: 0;
+}
+
+
+
+.btn-change {
+    border: none;
+    background-color: #FFFFFF;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #E36709;
+    margin-right: 9px;
+    cursor: pointer;
+}
+
+.btn-change:hover {
+    text-decoration: underline;
+}
+
+.fa-chevron-right {
+    color: #E36709;
+}
+
+/* div info contact */
+#change-contact {
+    display: none;
+}
+
+.info-contact {
+    display: none;
+    margin-bottom: 80px;
+}
+
+#change-contact:checked~.info-contact {
+    display: block;
+}
+
+.info-contact h3 {
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #311C1C;
+}
+
+
+.info-contact input {
+    width: 97%;
+    padding: 12px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #B5ABAA;
+}
+
+.info-contact p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    text-decoration: none;
+    color: #311C1C;
+}
+
+.a-login {
+    color: #004C3F;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.a-login:hover {
+    text-decoration: underline;
+}
+
+.btn-continue {
+    padding: 16px 81px;
+    gap: 10px;
+    background: #B5ABAA;
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-continue:hover {
+    background-color: #E36709;
+    color: rgb(254, 254, 253);
+}
+
+/* div-shiping-address */
+.div-shipping-address {
+    padding: 40px;
+    border: 1px solid #B5ABAA;
+    margin-top: 30px;
+    position: relative;
+}
+
+#checked-shipping-address:checked~.info-shipping-address {
+    display: block;
+}
+
+.div-name {
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.first-name {
+    flex-direction: column;
+}
+
+.last-name {
+    flex-direction: column;
+}
+
+.country {
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.street-address {
+    flex-direction: column;
+    margin: 24px 0px;
+}
+
+.street-address-2 {
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+#add-line-2:checked~.div-address-2 {
+    display: block;
+    transition: display 2s ease;
+}
+
+.label-add-line-2:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+.label-check-box {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #311C1C;
+    margin-left: 8px;
+}
+
+.label-check-box:hover {
+    text-decoration: underline;
+}
+
+.div-checkbox-1 {
+    margin-bottom: 24px;
+}
+
+.div-checkbox {
+    margin-bottom: 120px;
+}
+
+
+/* div-payment-method */
+.div-payment-method {
+    padding: 40px;
+    margin-top: 30px;
+    position: relative;
+}
+
+#checked-payment-method:checked+.div-button-change {
+    display: none;
+}
+
+#checked-payment-method:checked~.info-payment-method {
+    display: block;
+}
+
+.title-credit {
+    margin-top: 20px;
+}
+
+.title-credit h3 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.image-logo {
+    width: 34px;
+    height: 24px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    margin-left: 18px;
+
+    border: 1px solid #B5ABAA;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-center {
+    width: 16px;
+}
+
+.logo-cover {
+    width: 36px;
+}
+
+.phone-number {
+    flex-direction: column;
+    margin: 24px 0px;
+}
+
+.email-address {
+    flex-direction: column;
+    margin: 24px 0px;
+}
+
+.cardholder-name {
+    flex-direction: column;
+    margin: 24px 0px;
+}
+
+/* Content right */
+.content-right {
+    padding: 40px;
+    width: 27%;
+    height: 100%;
+}
+
+.info-product {
+    width: 100%;
+    margin-top: 36px;
+    height: 120px;
+}
+
+.product-name {
+    width: 60%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-name h3 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #311C1C;
+    text-transform: uppercase;
+}
+
+.p-size {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #311C1C;
+
+}
+
+.p-price {
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #311C1C;
+}
+
+.div-coupon-code {
+    margin-top: 30px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #EDE8E7;
+}
+
+.inp-coupon-code {
+    padding: 4px 8px;
+    width: 70%;
+    height: 20px;
+}
+
+.btn-add-code {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #311C1C;
+    background-color: #FFFFFF;
+    padding: 2px 16px;
+    cursor: pointer;
+}
+
+.btn-add-code:hover {
+    background-color: #E36709;
+    color: #FFFFFF;
+    border: none;
+}
+
+.div-subTotal {
+    margin-top: 30px;
+    border-bottom: 1px solid #EDE8E7;
+
+}
+
+.div-price {
+    margin-bottom: 24px;
+}
+
+.div-price h4 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #311C1C;
+}
+
+.p-price {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #311C1C;
+}
+.p-price-sub {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #311C1C;
+}
+.p-price-shipping {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #004C3F;
+    line-height: 20px;
+}
+.div-total {
+    font-size: 20px;
+    margin-top: 30px;
+}
+/* Footer */
+.div-footer-main {
+    margin-top: 100px;
+    position: relative;
+}
+.div-footer-1 {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+.div-footer-1 ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-left: 50px;
+}
+
+.div-footer-1 ul li {
+    padding-right: 50px;
+}
+
+.div-footer-1 ul li a {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #151515;
+    text-decoration: none;
+}
+
+.div-footer-1 ul li a:hover {
+    text-decoration: underline;
+    color: #004C3F;
+}
+
+@media screen and (max-width: 750px) {
+
+}

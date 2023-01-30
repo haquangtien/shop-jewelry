@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="helper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/fontawesome.min.css" />
+</head>
+<body>
+     <!-- Header -->
+     <div class="div-header">
+        <div class="header-main">
+            <div class="div-image-logo">
+                <img src="image/image 1636.png" alt="anh-logo" />
+            </div>
+            <input type="checkbox" name="" id="open-menu">
+            <div class="div-link">
+                <ul>
+                    <li><a href="#">Jewelry</a></li>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Outlet</a></li>
+                    <li><a href="#">Our Production</a></li>
+                </ul>
+            </div>
+            <div class="div-link-icon">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="image/icons8-search-30.png" alt="image-search" width="20px" height="20px" class="image-search">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="far fa-heart"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="far fa-user"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <label for="open-menu" class="label-menu">
+                <img width="36px" height="36px" src="image/icons8-menu-64.png" alt="image-menu">
+            </label>
+        </div>
+    </div>
+    <!-- Content -->
+    <div class="div-content">
+        <!-- Content breadcrumd -->
+        <div class="content-breadcrumd">
+            <ul>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Ring</a></li>
+                <li>Order</li>
+            </ul>
+        </div>
+        <!-- Content main -->
+        <div class="div-content-main d-flex d-flex-between">
+            <div class="div-content-left border-box">
+                <h2 class="font-text-20 color-main">New Customer</h2>
+                <div class="div-email-address mt-30 w-100">
+                    <label class="font-text-16">Email Address</label>
+                    <input type="text" placeholder="Email Address" class="text-placeholder border-box">
+                </div>
+                <div class="div-form-password">
+                    <div class="div-email-address mt-30 w-100 div-password">
+                        <label class="font-text-16">Password</label>
+                        <input type="password" placeholder="Password" class="text-placeholder border-box">
+                    </div>
+                    <div class="div-email-address mt-30 w-100">
+                        <label class="font-text-16">Confirm password</label>
+                        <input type="password" placeholder="Confirm password" class="text-placeholder border-box">
+                    </div>
+                </div>
+                <div class="w-100 div-button d-flex align-center">
+                    <a href="detailCart.html" class="d-flex align-center font-text-16 color-main a-back">
+                        <img src="image/icons8-chevron-left-24.png" alt="chevron-left"> &nbsp; Back To Customer Info
+                    </a>
+                    <button class="btn-continue">Continue&Continue</button>
+                </div>
+            </div>
+            <div class="content-right border-box ">
+                <div class="title-order d-flex d-flex-between align-center ">
+                    <h2 class="m-0">Order Summary</h2>
+                    <img height="24px" src="image/detail-card/icons8-close-24.png" alt="image-close" class="cursor-point">
+                </div>
+                <div class="info-product d-flex d-flex-between">
+                    <img width="120px"  src="image/bestSeller/Rectangle 50.png" alt="image-product">
+                    <div class="product-name d-flex">
+                        <h3 class="m-0">Gold Ring with Diamond</h3>
+                        <p class="p-size m-0">Size: 17</p>
+                        <p class="p-price m-0">$34.222</p>
+                    </div>
+                    <img class="cursor-point image-trash" height="24px" src="image/detail-card/icons8-trash-24.png" alt="image-trash">
+                </div>
+                <div class="div-coupon-code d-flex d-flex-between">
+                    <input type="text" class="border-box inp-coupon-code" placeholder="Coupon code">
+                    <button class="border-box btn-add-code">Add Code</button>
+                </div>
+                <div class="div-subTotal"> 
+                    <div class="div-price d-flex d-flex-between">
+                        <h4 class="m-0">Subtotal</h4>
+                        <p class="p-price-sub m-0">$34.222</p>
+                    </div>
+                    <div class="div-price d-flex d-flex-between">
+                        <h4 class="m-0">Shipping</h4>
+                        <p class="p-price-shipping m-0">FREE</p>
+                    </div>
+                    <div class="div-price d-flex d-flex-between">
+                        <h4 class="m-0">Discount</h4>
+                        <p class="p-price-sub m-0">-</p>
+                    </div>
+                    <div class="div-price d-flex d-flex-between">
+                        <h4 class="m-0">Tax</h4>
+                        <p class="p-price-sub m-0">-</p>
+                    </div>
+                </div>
+                <div class="div-total d-flex d-flex-between">
+                    <h3 class="m-0">Total</h3>
+                    <h3 class="m-0">$489</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="div-footer-main">
+        <div class="div-footer-1">
+            <ul>
+                <li><a href="AllProduct.html">Returns</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

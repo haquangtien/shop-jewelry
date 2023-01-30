@@ -1,0 +1,569 @@
+.div-header {
+    width: 1920px;
+}
+/* Content */
+/* content breadcrumb */
+.div-content-main {
+    width: 1920px;
+    padding-top: 40px;
+}
+
+.content-breadcrumbs {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content-breadcrumbs ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.content-breadcrumbs ul li {
+    color: rgba(49, 28, 28, 0.7);
+
+}
+
+.content-breadcrumbs ul li a {
+    color: rgba(49, 28, 28, 0.7);
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.content-breadcrumbs ul li a::after {
+    content: "/";
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.content-breadcrumbs ul li a:hover {
+    color: #311C1C;
+    text-decoration: underline;
+}
+
+/* detail product */
+.div-detail-product {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 50px;
+}
+
+.div-image-product {
+    display: flex;
+    padding-bottom: 60px;
+    border-bottom: 0.5px solid #EDE8E7;
+    margin-right: 100px;
+}
+
+.div-image-banner {
+    margin-right: 30px;
+}
+
+.image-extra {
+    margin-bottom: 30px;
+}
+
+.div-info-product {
+    width: 50%;
+}
+
+.div-review-star {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-star {
+    display: flex;
+}
+
+.div-star ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.fa-star {
+    color: #E36709;
+    border: none;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.div-star ul li i.no-star {
+    color: #EDE8E7;
+}
+
+.div-star p {
+    margin: 0;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #311C1C;
+    margin-left: 8px;
+}
+
+.div-turn-review p {
+    margin: 0;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #311C1C;
+}
+
+.title-name {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EDE8E7;
+}
+
+.title-name h1 {
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #311C1C;
+}
+
+.div-price-product {
+    margin-top: 30px;
+}
+
+.div-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-price del {
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #B5ABAA;
+}
+
+.div-price p {
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #311C1C;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.div-select {
+    display: flex;
+    align-items: center;
+    border: 1px solid #E5E5E5;
+    padding: 0px 16px;
+}
+
+.div-select span {
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B5ABAA;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.div-select p {
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #311C1C;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 20px;
+}
+
+/* Button buy */
+.div-btn-buy {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EDE8E7;
+}
+
+.btn-buy-it-now {
+    padding: 16px 71px;
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: #E36709;
+    border: 1px solid #E36709;
+
+}
+
+.btn-buy-by-click {
+    padding: 16px 71px;
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E36709;
+    background-color: #FFFFFF;
+    border: 1px solid #E36709;
+}
+
+.btn-favorite {
+    padding: 16px 0px;
+    border: 2px solid #E36709;
+    background-color: #FFFFFF;
+    color: #E36709;
+    font-size: 18px;
+    border: none;
+}
+
+.p-info-product {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #311C1C;
+    margin-bottom: 34px;
+}
+
+.div-info-icon {
+    display: flex;
+    justify-content: space-between;
+    width: 134px;
+    height: 26px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.div-info-icon p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #311C1C;
+}
+
+/* div-ring-about */
+.div-detail {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.div-about-ring {
+    width: 52.9%;
+    border-bottom: 1px solid #EDE8E7;
+    margin-top: 30px;
+}
+
+.div-about-ring h3 {
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #311C1C;
+}
+
+.div-about-ring ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 24px;
+}
+
+.div-about-ring ul li span {
+    font-weight: 600;
+}
+
+.div-about-ring ul li {
+    padding-bottom: 20px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-size: 18px;
+    color: #311C1C;
+}
+
+.div-about-ring p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    color: #311C1C;
+}
+
+/* div similar */
+.div-similar {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.title-similar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #E36709;
+
+}
+
+.title-similar h2 {
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #311C1C;
+}
+
+.btn-view-all a {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 20px;
+    color: #E36709;
+
+}
+
+.btn-view-all a:hover {
+    text-decoration: underline;
+}
+
+.best-seller-card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-card {
+    border: 1px solid #dedcdc;
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.div-card:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+    box-shadow: 1px 1px 10px #797979;
+    transition: transform 0.3s;
+}
+
+.label-best-seller {
+    background-color: #AA1377;
+    padding: 8px 16px;
+    position: absolute;
+    top: 20px;
+
+}
+
+.div-card .p-best-seller {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #EDE8E7;
+}
+
+.label-sale {
+    background-color: #E36709;
+    padding: 8px 16px;
+    position: absolute;
+    top: 64px;
+
+}
+
+.div-card .p-sale {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #EDE8E7;
+}
+
+.label-new {
+    background-color: #004C3F;
+    padding: 8px 16px;
+    position: absolute;
+    top: 64px;
+}
+
+.div-card .p-new {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #EDE8E7;
+}
+
+.div-card h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #311C1C;
+    text-transform: uppercase;
+
+}
+
+.div-card del {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B5ABAA;
+}
+
+.div-card p {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: #311C1C;
+}
+
+/* content review */
+
+.content-review h2 {
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #311C1C;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 72px;
+}
+
+.content-review-1 {
+    width: 52.9%;
+    margin-right: 100px;
+}
+
+.div-content-review {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.div-review-liza {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-star {
+    display: flex;
+    align-items: center;
+}
+
+.review-star ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.review-star h3 {
+    margin: 0;
+    margin-left: 12px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.p-date {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #311C1C;
+    margin: 0;
+}
+
+.content-comment {
+    font-family: 'Mulish';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #311C1C;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #EDE8E7;
+}
+.review-star ul li i.no-star {
+    color: #EDE8E7;
+}
+.btn-favorite-1 {
+    background-color: #FFFFFF;
+    color: #E36709;
+    border: none;
+    font-size: 20px;
+}
+.btn-favorite-1 i {
+    margin-right: 0;
+}
+.btn-buy-it-now-1 {
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: #E36709;
+    border: 1px solid #E36709;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-buy-by-click-1 {
+    padding: 16px 71px;
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E36709;
+    background-color: #FFFFFF;
+    border: 1px solid #E36709;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* content popular */
+.image-popular-4 {
+    width: 320px;
+    height: 334px;
+}

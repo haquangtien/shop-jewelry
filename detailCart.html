@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="detailCart.css">
+    <link rel="stylesheet" href="helper.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="div-header">
+        <div class="header-main">
+            <div class="div-image-logo">
+                <img src="image/image 1636.png" alt="anh-logo" />
+            </div>
+            <input type="checkbox" name="" id="open-menu">
+            <div class="div-link">
+                <ul>
+                    <li><a href="#">Jewelry</a></li>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Outlet</a></li>
+                    <li><a href="#">Our Production</a></li>
+                </ul>
+            </div>
+            <div class="div-link-icon">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="image/icons8-search-30.png" alt="image-search" width="20px" height="20px" class="image-search">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="far fa-heart"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="far fa-user"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <label for="open-menu" class="label-menu">
+                <img width="36px" height="36px" src="image/icons8-menu-64.png" alt="image-menu">
+            </label>
+        </div>
+    </div>
+    <!-- Content -->
+    <div class="div-content">
+        <!-- Content breadcrumd -->
+        <div class="content-breadcrumd">
+            <ul>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Ring</a></li>
+                <li>Order</li>
+            </ul>
+        </div>
+        <!-- Content detail cart -->
+        <div class="div-main-content d-flex d-flex-between">
+            <div class="content-left">
+                <div class="div-main-contact">
+                    <div class="div-contact-infomation">
+                        <h2>1. Contact Information</h2>
+                        <div class="div-button-change">
+                            <label for="change-contact" class="btn-change">Change</label>
+                            <label for="change-contact"><i class="fas fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="change-info-contact">
+                        <input type="checkbox" name="" id="change-contact">
+                        <div class="info-contact">
+                            <div class="email-address d-flex">
+                                <label class="label-info">Email Address</label>
+                                <input type="text" class="text-placeholder border-box input-email" placeholder="Email Address">
+                            </div>
+                            <p>Already have an account? <a href="login.html" class="a-login">Login</a></p>
+                            <label for="change-contact"><button class="btn-continue">Continue</button></label>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-shipping-address">
+                    <div class="div-contact-infomation">
+                        <h2>2. Shiping Address</h2>
+                        <div class="div-button-change">
+                            <label for="checked-shipping-address" class="btn-change">Change</label>
+                            <label for="checked-shipping-address"><i class="fas fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="change-shiping-address">
+                        <input type="checkbox" class="d-none" id="checked-shipping-address">
+                        <div class="info-shipping-address d-none">
+                            <div class="div-name w-100 d-flex">
+                                <div class="first-name w-49 d-flex">
+                                    <label class="label-info">First Name</label>
+                                    <input type="text" class="text-placeholder border-box" placeholder="First Name">
+                                </div>
+                                <div class="last-name w-49 d-flex">
+                                    <label class="label-info">Last Name</label>
+                                    <input type="text" class="text-placeholder border-box" placeholder="Last Name">
+                                </div>
+                            </div>
+                            <div class="country d-flex">
+                                <label class="label-info">Country</label>
+                                <select name="select-country"
+                                    class="select-coutry w-100 text-placeholder border-box cursor-point">
+                                    <option value="all">Country</option>
+                                    <option value="all">Country 1</option>
+                                    <option value="all">Country 2</option>
+                                    <option value="all">Country 3</option>
+                                </select>
+                            </div>
+                            <div class="street-address d-flex">
+                                <label class="label-info">Street Address</label>
+                                <input type="text" class="text-placeholder border-box" placeholder="Street Address">
+                            </div>
+                            <label for="add-line-2" class="label-add-line-2 label-info cursor-point">+ Add Line 2</label>
+                            <input type="checkbox" class="d-none" name="" id="add-line-2">
+                            <div class="div-address-2 d-none">
+                                <div class="street-address-2 d-flex">
+                                    <label class="label-info">Street Address 2</label>
+                                    <input type="text" class="text-placeholder border-box" placeholder="Street Address 2">
+                                </div>
+                            </div>
+                            <div class="street-address d-flex">
+                                <label class="label-info">City</label>
+                                <input type="text" class="text-placeholder border-box" placeholder="City">
+                            </div>
+                            <div class="div-name w-100 d-flex">
+                                <div class="first-name w-49 d-flex">
+                                    <label class="label-info">State</label>
+                                    <select name="select-country"
+                                    class="select-coutry w-100 text-placeholder border-box cursor-point">
+                                    <option value="all">State</option>
+                                    <option value="all">State 1</option>
+                                    <option value="all">State 2</option>
+                                    <option value="all">State 3</option>
+                                </select>
+                                </div>
+                                <div class="last-name w-49 d-flex">
+                                    <label class="label-info">Zip Code</label>
+                                    <input type="text" class="text-placeholder border-box" placeholder="zip Code">
+                                </div>
+                            </div>
+                            <div class="street-address d-flex">
+                                <label class="label-info">Phone Number</label>
+                                <input type="text" class="text-placeholder border-box" placeholder="Phone Number">
+                            </div>
+                            <div class="div-checkbox-1 d-flex align-center">
+                                <input type="checkbox" id="checkbox-save" class="input-check-box ">
+                                <label for="checkbox-save" class="label-check-box cursor-point ">Save this informations for a future fast checkout</label>
+                            </div>
+                            <div class="div-checkbox d-flex align-center">
+                                <input type="checkbox" id="checkbox-receive-SMS" class="input-check-box">
+                                <label for="checkbox-receive-SMS" class="label-check-box cursor-point">Receive SMS Notifications</label>
+                            </div>
+                            <button class="btn-continue">Continue</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-payment-method border-box">
+                    <div class="div-contact-infomation">
+                        <h2>3. Payment Method</h2>
+                        <div class="div-button-change">
+                            <label for="checked-payment-method" class="btn-change">Change</label>
+                            <label for="checked-payment-method"><i class="fas fa-chevron-right"></i></label>
+                        </div>
+                    </div>
+                    <div class="change-payment-method">
+                        <input type="checkbox" id="checked-payment-method" class="d-none">
+                        <div class="info-payment-method d-none">
+                            <div class="title-credit d-flex d-flex-between">
+                                <h3>Credit Card</h3>
+                                <ul class="d-flex list-style-none">
+                                    <li class="image-logo">
+                                        <img class="logo-center" src="image/detail-card/logo/icons8-diners-club-48.png" alt="image-diner-club">
+                                    </li>
+                                    <li class="image-logo">
+                                        <img class="logo-cover" src="image/detail-card/logo/icons8-discover-card-48.png" alt="image-discover-card">
+                                    </li>
+                                    <li class="image-logo">
+                                        <img class="logo-cover" src="image/detail-card/logo/icons8-american-express-48.png" alt="image-american-express">
+                                    </li>
+                                    <li class="image-logo">
+                                        <img class="logo-center" src="image/detail-card/logo/icons8-mastercard-logo-48.png" alt="image-mastercard-logo">
+                                    </li>
+                                    <li class="image-logo">
+                                        <img class="logo-cover" src="image/detail-card/logo/icons8-visa-48.png" alt="image-visa">
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="phone-number d-flex">
+                                <label class="label-info">Phone Number</label>
+                                <input type="text" class="text-placeholder border-box" placeholder="Phone Number">
+                            </div>
+                            <div class="div-main-address d-flex w-100 d-flex-between">
+                                <div class="email-address d-flex w-33">
+                                    <label class="label-info">Email Address</label>
+                                    <input type="text" class="text-placeholder border-box" placeholder="Email Address">
+                                </div>
+                                <div class="email-address d-flex w-33">
+                                    <label class="label-info">Email Address</label>
+                                    <input type="text" class="text-placeholder border-box" placeholder="Email Address">
+                                </div>
+                                <div class="email-address d-flex w-33">
+                                    <label class="label-info">CVV</label>
+                                    <input type="text" class="text-placeholder border-box" placeholder="CVV">
+                                </div>
+                            </div>
+                            <div class="cardholder-name d-flex">
+                                <label class="label-info">Cardholder Name</label>
+                                <input type="text" class="text-placeholder border-box" placeholder="Cardholder Name">
+                            </div>
+                            <div class="div-checkbox d-flex align-center ">
+                                <input type="checkbox" id="checkbox-billing-address" class="input-check-box">
+                                <label for="checkbox-billing-address" class="label-check-box cursor-point">Billing address is the same as shipping address</label>
+                            </div>
+                            <button class="btn-continue">Continue</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content-right border-box ">
+                <div class="title-order d-flex d-flex-between align-center ">
+                    <h2 class="m-0">Order Summary</h2>
+                    <img height="24px" src="image/detail-card/icons8-close-24.png" alt="image-close">
+                </div>
+                <div class="info-product d-flex d-flex-between">
+                    <img width="120px"  src="image/bestSeller/Rectangle 50.png" alt="image-product">
+                    <div class="product-name d-flex">
+                        <h3 class="m-0">Gold Ring with Diamond</h3>
+                        <p class="p-size m-0">Size: 17</p>
+                        <p class="p-price m-0">$34.222</p>
+                    </div>
+                    <img class="cursor-point" height="24px" src="image/detail-card/icons8-trash-24.png" alt="image-trash">
+                </div>
+                <div class="div-coupon-code d-flex d-flex-between">
+                    <input type="text" class="border-box inp-coupon-code" placeholder="Coupon code">
+                    <button class="border-box btn-add-code">Add Code</button>
+                </div>
+                <div class="div-subTotal"> 
+                    <div class="div-price d-flex d-flex-between">
+                        <h4 class="m-0">Subtotal</h4>
+                        <p class="p-price-sub m-0">$34.222</p>
+                    </div>
+                    <div class="div-price d-flex d-flex-between">
+                        <h4 class="m-0">Shipping</h4>
+                        <p class="p-price-shipping m-0">FREE</p>
+                    </div>
+                    <div class="div-price d-flex d-flex-between">
+                        <h4 class="m-0">Discount</h4>
+                        <p class="p-price-sub m-0">-</p>
+                    </div>
+                    <div class="div-price d-flex d-flex-between">
+                        <h4 class="m-0">Tax</h4>
+                        <p class="p-price-sub m-0">-</p>
+                    </div>
+                </div>
+                <div class="div-total d-flex d-flex-between">
+                    <h3 class="m-0">Total</h3>
+                    <h3 class="m-0">$489</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="div-footer-main">
+        <div class="div-footer-1">
+            <ul>
+                <li><a href="AllProduct.html">Returns</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

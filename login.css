@@ -1,0 +1,293 @@
+/* Content breadcrumd */
+.content-breadcrumd {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.content-breadcrumd ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.content-breadcrumd ul li {
+    color: #B5ABAA;
+}
+
+.content-breadcrumd ul li a {
+    text-decoration: none;
+    color: #B5ABAA;
+}
+
+.content-breadcrumd ul li a:hover {
+    color: blue;
+}
+
+.content-breadcrumd ul li a::after {
+    content: "/";
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+/* Content main */
+.div-content {
+    width: 1920px;
+}
+
+.div-content-main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.div-content-left {
+    width: 65.76%;
+    padding: 40px;
+    margin-right: 30px;
+    height: 100%;
+}
+
+.div-email-address {
+    margin-top: 24px;
+
+}
+
+.div-email-address input {
+    width: 97%;
+    margin-top: 8px;
+}
+
+.a-back {
+    text-decoration: none;
+}
+
+.a-back:hover {
+    text-decoration: underline;
+}
+.div-button {
+    justify-content: flex-end;
+    margin-top: 48px;
+}
+.btn-continue {
+    padding: 16px 40px;
+    border: none;
+    cursor: pointer;
+    background: #E36709;
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-left: 24px;
+}
+.btn-continue:hover {
+    background-color: #fe862a;
+    color: #311C1C;
+}
+/* Content right */
+.content-right {
+    padding: 40px;
+    width: 27%;
+    height: 100%;
+}
+
+.info-product {
+    width: 100%;
+    margin-top: 36px;
+    height: 120px;
+}
+
+.product-name {
+    width: 60%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-name h3 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #311C1C;
+    text-transform: uppercase;
+}
+
+.p-size {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #311C1C;
+
+}
+
+.p-price {
+    font-family: 'Libre Bodoni';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #311C1C;
+}
+
+.div-coupon-code {
+    margin-top: 30px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #EDE8E7;
+}
+
+.inp-coupon-code {
+    padding: 4px 8px;
+    width: 70%;
+    height: 20px;
+}
+
+.btn-add-code {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #311C1C;
+    background-color: #FFFFFF;
+    padding: 2px 16px;
+    cursor: pointer;
+}
+
+.btn-add-code:hover {
+    background-color: #E36709;
+    color: #FFFFFF;
+    border: none;
+}
+
+.div-subTotal {
+    margin-top: 30px;
+    border-bottom: 1px solid #EDE8E7;
+
+}
+
+.div-price {
+    margin-bottom: 24px;
+}
+
+.div-price h4 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #311C1C;
+}
+
+.p-price {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #311C1C;
+}
+.p-price-sub {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #311C1C;
+}
+.p-price-shipping {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #004C3F;
+    line-height: 20px;
+}
+.div-total {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+/* Footer */
+.div-footer-main {
+    margin-top: 100px;
+    position: relative;
+}
+.div-footer-1 {
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+.div-footer-1 ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-left: 50px;
+}
+
+.div-footer-1 ul li {
+    padding-right: 50px;
+}
+
+.div-footer-1 ul li a {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #151515;
+    text-decoration: none;
+}
+
+.div-footer-1 ul li a:hover {
+    text-decoration: underline;
+    color: #004C3F;
+}
+@media screen and (max-width: 750px) {
+    .label-menu {
+        display: block;
+    }
+    .div-content {
+        width: auto;
+    }
+    .div-content-main {
+        flex-direction: column;
+    }
+    .div-content-left {
+        width: 93%;
+        padding: 20px;
+        margin-bottom: 24px;
+    }
+    .div-email-address {
+        display: flex;
+        flex-direction: column;
+    }
+    .div-email-address input {
+        width: auto;
+    }
+    .text-placeholder {
+        padding: 6px 16px !important;
+    }
+    .div-form-password {
+        display: flex;
+    }
+    .div-password {
+        margin-right: 10px;
+    }
+    .div-email-address label {
+        margin-left: 10px;
+    }
+    .div-button {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .div-price {
+        margin-bottom: 16px;
+    }
+}
